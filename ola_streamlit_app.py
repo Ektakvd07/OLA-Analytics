@@ -6,6 +6,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+st.success("Plotly installed successfully!")
+st.write("Plotly Version:", plotly.__version__)
+
 st.set_page_config(
     page_title="OLA Ride Booking Analytics",
     page_icon="🚕",
