@@ -1,6 +1,6 @@
 import sqlite3
 from pathlib import Path
-
+import plotly
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
